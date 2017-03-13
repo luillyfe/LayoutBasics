@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+const app  = require("../app");
+const port = process.env.PORT || 8080;
+
+app.set("port", port);
+
+app.listen(port, () => {
+  console.log("Building layouts with css3 and html5");
+});
+

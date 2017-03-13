@@ -1,0 +1,21 @@
+{
+  "name": "layoutbasics",
+  "version": "0.0.1",
+  "description": "\"Building layouts\"",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/www"
+  },
+  "keywords": [
+    "layout",
+    "css3",
+    "html5",
+    "NodeJs"
+  ],
+  "author": "Fermin Blanco",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
